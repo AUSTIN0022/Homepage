@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.image-head {
+
+  flex-basis: auto;
+  object-fit: cover;
+}
+
+.first-img {
+  width: 1264px;
+  height: 650px;
+  object-fit: cover;
+}
+
+.card-left {
+  margin-left: 30px;
+}
+.card-body {
+  flex-basis: auto;
+}
+
+.card {
+    background-color: black;
+    width:600px;
+    height:550px ;
+    
+  
+   
+}
+
+.card-title {
+  margin-left: 20px;
+  color: white;
+}
+
+.card-text {
+  margin-left:20px;
+  color: white;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid #000000;
+}
+.image2 {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  width: 440px;
+  height:270px;
+  border: 0px solid #000000;
+}
+
